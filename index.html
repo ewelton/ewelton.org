@@ -9,14 +9,14 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>ewelton.org - Ewelton Control</title>
-<meta name="description" content="Welcome to Ewelton Control">
+<!-- begin _includes/seo.html --><title>ewelton.org - ewelton.org</title>
+<meta name="description" content="Welcome to ewelton.org">
 
 
 
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
-<meta property="og:site_name" content="Ewelton Control">
+<meta property="og:site_name" content="ewelton.org">
 <meta property="og:title" content="ewelton.org">
 <meta property="og:url" content="https://localhost:4000/">
 
@@ -63,7 +63,7 @@
 <!-- end _includes/seo.html -->
 
 
-<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Ewelton Control Feed">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="ewelton.org Feed">
 
 <!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -209,7 +209,7 @@ window.addEventListener('load', function () {
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-        <a class="site-title" href="/">Ewelton Control</a>
+        <a class="site-title" href="/">ewelton.org</a>
         <ul class="visible-links"><li class="masthead__menu-item">
               <a href="/#contact" >Contact</a>
             </li><li class="masthead__menu-item">
@@ -243,35 +243,36 @@ window.addEventListener('load', function () {
 
   <p>Hello,</p>
 
-<p>As you have not identified yourself via your client side certificate, I
-do not know who you are.  We are beginning the trace.</p>
+<p>I do not know who you are and you have not identified yourself
+yet.  I prefer this is done during connection establishment.
+We are beginning a trace to identify you.</p>
 
-<p>Please connect with a profile by providing some information:</p>
+<p>Please connect with an existing profile by:</p>
 
-<form id="form" accept-charset="UTF-8" action="https://iiolonioro.korsimoro.net/" method="POST">
+<ul>
+  <li>Provide some information
+    <form id="form" accept-charset="UTF-8" action="https://iiolonioro.korsimoro.net/" method="POST">
   <input type="password" name="key" placeholder="Identifier" />
   <input type="hidden" name="utf8" value="&lt;&lt;FROM SCRIPT ABOVE&gt;&gt;" />
   <button type="submit">Engage</button>
   <button onclick="triggerUpload()">Upload</button>
 </form>
 
-<p>Feel free to paste a <a href="./glossary#did">DID</a>, a string, a small document,
+    <p>Feel free to paste a <a href="./glossary#did">DID</a>, a string, a small document,
 even a <a href="./glossary/did-document">DID Document</a>,
 upload public key, or anything else you feel comfortable sharing.  We’ll
 check it out, and if it isn’t quite right we’ll let you know why.</p>
+  </li>
+  <li>
+    <p>Scan this QR Code to introduce your device.</p>
 
-<p>Scan this QR Code to introduce your device.</p>
+    <p><img src="/assets/images/NetQRCode.png" /></p>
+  </li>
+  <li>
+    <p>Onboard via our App.</p>
 
-<p><img src="/assets/images/NetQRCode.png" /></p>
-
-<p>Or download our App.</p>
-
-<p><a href="." onclick="downloadApp()"><img src="/assets/images/applogos.svg" /></a></p>
-
-<h2 id="page-feature-todo">Page Feature ToDo</h2>
-<ul>
-  <li>formats</li>
-  <li>add file upload button</li>
+    <p><a href="." onclick="downloadApp()"><img src="/assets/images/applogos.svg" /></a></p>
+  </li>
 </ul>
 
 
