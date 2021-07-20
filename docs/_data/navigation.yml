@@ -1,0 +1,6 @@
+# main links
+main:
+ - title: Operations
+   url: /ops
+ - title: DDE
+   url: /dde
