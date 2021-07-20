@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://localhost:4000/explore</loc>
+</url>
+<url>
+<loc>https://localhost:4000/</loc>
+</url>
+<url>
+<loc>https://localhost:4000/explore/licensees</loc>
+</url>
+<url>
+<loc>https://localhost:4000/manual</loc>
+</url>
+<url>
+<loc>https://localhost:4000/explore/master-data</loc>
+</url>
+<url>
+<loc>https://localhost:4000/explore/mission-statement</loc>
+</url>
+<url>
+<loc>https://localhost:4000/explore/operations-processs</loc>
+</url>
+<url>
+<loc>https://localhost:4000/ops</loc>
+</url>
+<url>
+<loc>https://localhost:4000/explore/what-are-we</loc>
+</url>
+</urlset>
